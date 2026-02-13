@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <rect width="100%" height="100%" fill="#FFFBEB"/>
+  <g fill="#FDE68A" opacity="0.95">
+    <rect x="80" y="90" width="140" height="180" rx="8"/>
+  </g>
+  <text x="300" y="210" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#92400E" text-anchor="middle">journal.svg</text>
+</svg>
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fafbfc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8ecf1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" fill="url(#bgGrad)"/>
+  
+  <!-- Shadow behind book -->
+  <ellipse cx="150" cy="220" rx="80" ry="15" fill="#00000015"/>
+  
+  <!-- Open journal book - left page -->
+  <rect x="60" y="60" width="75" height="130" rx="3" fill="#fef5f0" stroke="#d4a574" stroke-width="2"/>
+  <line x1="70" y1="80" x2="155" y2="80" stroke="#c9a47f" stroke-width="1.5" opacity="0.5"/>
+  <line x1="70" y1="95" x2="155" y2="95" stroke="#c9a47f" stroke-width="1.5" opacity="0.5"/>
+  <line x1="70" y1="110" x2="155" y2="110" stroke="#c9a47f" stroke-width="1.5" opacity="0.5"/>
+  <line x1="70" y1="125" x2="145" y2="125" stroke="#c9a47f" stroke-width="1.5" opacity="0.5"/>
+  <line x1="70" y1="140" x2="155" y2="140" stroke="#c9a47f" stroke-width="1.5" opacity="0.5"/>
+  <line x1="70" y1="155" x2="150" y2="155" stroke="#c9a47f" stroke-width="1.5" opacity="0.5"/>
+  <line x1="70" y1="170" x2="155" y2="170" stroke="#c9a47f" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- Right page -->
+  <rect x="135" y="60" width="75" height="130" rx="3" fill="#fffdfb" stroke="#d4a574" stroke-width="2"/>
+  <line x1="145" y1="80" x2="205" y2="80" stroke="#c9a47f" stroke-width="1.5" opacity="0.5"/>
+  <line x1="145" y1="95" x2="205" y2="95" stroke="#c9a47f" stroke-width="1.5" opacity="0.5"/>
+  <line x1="145" y1="110" x2="205" y2="110" stroke="#c9a47f" stroke-width="1.5" opacity="0.5"/>
+  <line x1="145" y1="125" x2="200" y2="125" stroke="#c9a47f" stroke-width="1.5" opacity="0.5"/>
+  <line x1="145" y1="140" x2="205" y2="140" stroke="#c9a47f" stroke-width="1.5" opacity="0.5"/>
+  <line x1="145" y1="155" x2="205" y2="155" stroke="#c9a47f" stroke-width="1.5" opacity="0.5"/>
+  <line x1="145" y1="170" x2="205" y2="170" stroke="#c9a47f" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- Book spine -->
+  <rect x="130" y="65" width="10" height="120" fill="#d4a574" stroke="#8b7355" stroke-width="1.5"/>
+  
+  <!-- Decorative pencil -->
+  <g transform="translate(220, 100) rotate(25)">
+    <rect x="0" y="0" width="60" height="6" rx="3" fill="#f4d03f" stroke="#3c3c3c" stroke-width="1.5"/>
+    <polygon points="0,3 -5,0 -5,6" fill="#8b6f47"/>
+    <line x1="5" y1="3" x2="15" y2="3" stroke="#3c3c3c" stroke-width="0.5"/>
+  </g>
+</svg>

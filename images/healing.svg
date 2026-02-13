@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <rect width="100%" height="100%" fill="#F0FDF4"/>
+  <rect x="60" y="60" width="120" height="120" rx="16" fill="#86EFAC" opacity="0.95"/>
+  <text x="300" y="210" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#064E3B" text-anchor="middle">healing.svg</text>
+</svg>
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e6c9b8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d4a896;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef9f3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8dfd5;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="300" height="300" fill="url(#bgGrad2)"/>
+  
+  <!-- Two hands cradling -->
+  <!-- Left hand -->
+  <path d="M 80 140 Q 70 130 65 120 Q 60 135 70 155 Q 85 165 100 160 Z" fill="url(#skinGrad)" stroke="#a87c6d" stroke-width="2"/>
+  <ellipse cx="55" cy="110" rx="8" ry="12" fill="url(#skinGrad)" stroke="#a87c6d" stroke-width="1.5"/>
+  <ellipse cx="50" cy="125" rx="7" ry="10" fill="url(#skinGrad)" stroke="#a87c6d" stroke-width="1.5"/>
+  <ellipse cx="58" cy="105" rx="8" ry="11" fill="url(#skinGrad)" stroke="#a87c6d" stroke-width="1.5"/>
+  
+  <!-- Right hand -->
+  <path d="M 220 140 Q 230 130 235 120 Q 240 135 230 155 Q 215 165 200 160 Z" fill="url(#skinGrad)" stroke="#a87c6d" stroke-width="2"/>
+  <ellipse cx="245" cy="110" rx="8" ry="12" fill="url(#skinGrad)" stroke="#a87c6d" stroke-width="1.5"/>
+  <ellipse cx="250" cy="125" rx="7" ry="10" fill="url(#skinGrad)" stroke="#a87c6d" stroke-width="1.5"/>
+  <ellipse cx="242" cy="105" rx="8" ry="11" fill="url(#skinGrad)" stroke="#a87c6d" stroke-width="1.5"/>
+  
+  <!-- Heart shadow -->
+  <path d="M 150 120 C 150 105 135 95 120 95 C 105 95 95 105 95 120 C 95 145 150 180 150 180 C 150 180 205 145 205 120 C 205 105 195 95 180 95 C 165 95 150 105 150 120 Z" fill="#0000001a"/>
+  
+  <!-- Main heart -->
+  <path d="M 150 118 C 150 103 135 93 120 93 C 105 93 95 103 95 118 C 95 143 150 178 150 178 C 150 178 205 143 205 118 C 205 103 195 93 180 93 C 165 93 150 103 150 118 Z" fill="#e85d75" stroke="#c94a62" stroke-width="2.5" filter="url(#glow)"/>
+  
+  <!-- Light reflection on heart -->
+  <ellipse cx="130" cy="130" rx="12" ry="16" fill="#ffffff" opacity="0.3"/>
+</svg>

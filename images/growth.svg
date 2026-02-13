@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <rect width="100%" height="100%" fill="#EEF2F7"/>
+  <circle cx="100" cy="100" r="60" fill="#7DD3FC" opacity="0.9"/>
+  <text x="300" y="210" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#0F172A" text-anchor="middle">growth.svg</text>
+</svg>
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGrow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5faf7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dceee4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="soilGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9b8b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6b5a4a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" fill="url(#bgGrow)"/>
+  
+  <!-- Soil -->
+  <ellipse cx="150" cy="200" rx="90" ry="30" fill="url(#soilGrad)"/>
+  <rect x="70" y="200" width="160" height="80" fill="#7a6a4a"/>
+  
+  <!-- Plant/Growth progression - multiple stages -->
+  
+  <!-- Stage 1: Small sprout (left) -->
+  <line x1="100" y1="200" x2="100" y2="160" stroke="#5a7a4a" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="92" cy="165" rx="6" ry="8" fill="#6a8a5a" transform="rotate(-30 92 165)"/>
+  <ellipse cx="108" cy="165" rx="6" ry="8" fill="#7a9a6a" transform="rotate(30 108 165)"/>
+  
+  <!-- Stage 2: Medium plant (center-left) -->
+  <line x1="130" y1="200" x2="130" y2="130" stroke="#5a7a4a" stroke-width="3" stroke-linecap="round"/>
+  <!-- Leaves -->
+  <ellipse cx="118" cy="150" rx="8" ry="12" fill="#6a8a5a" transform="rotate(-40 118 150)"/>
+  <ellipse cx="142" cy="150" rx="8" ry="12" fill="#7a9a6a" transform="rotate(40 142 150)"/>
+  <ellipse cx="115" cy="165" rx="8" ry="12" fill="#7a9a6a" transform="rotate(-45 115 165)"/>
+  <ellipse cx="145" cy="165" rx="8" ry="12" fill="#6a8a5a" transform="rotate(45 145 165)"/>
+  
+  <!-- Stage 3: Large plant with bud (center-right) -->
+  <line x1="160" y1="200" x2="160" y2="90" stroke="#5a7a4a" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Leaves -->
+  <ellipse cx="145" cy="130" rx="10" ry="15" fill="#6a8a5a" transform="rotate(-45 145 130)"/>
+  <ellipse cx="175" cy="130" rx="10" ry="15" fill="#7a9a6a" transform="rotate(45 175 130)"/>
+  <ellipse cx="140" cy="155" rx="10" ry="15" fill="#7a9a6a" transform="rotate(-50 140 155)"/>
+  <ellipse cx="180" cy="155" rx="10" ry="15" fill="#6a8a5a" transform="rotate(50 180 155)"/>
+  <ellipse cx="138" cy="180" rx="9" ry="14" fill="#6a8a5a" transform="rotate(-50 138 180)"/>
+  <ellipse cx="182" cy="180" rx="9" ry="14" fill="#7a9a6a" transform="rotate(50 182 180)"/>
+  <!-- Bud -->
+  <circle cx="160" cy="85" r="4" fill="#e85d75" opacity="0.8"/>
+  
+  <!-- Stage 4: Blooming flower (right) -->
+  <line x1="190" y1="200" x2="190" y2="70" stroke="#5a7a4a" stroke-width="4" stroke-linecap="round"/>
+  <!-- Leaves -->
+  <ellipse cx="172" cy="120" rx="12" ry="18" fill="#6a8a5a" transform="rotate(-45 172 120)"/>
+  <ellipse cx="208" cy="120" rx="12" ry="18" fill="#7a9a6a" transform="rotate(45 208 120)"/>
+  <!-- Flower petals -->
+  <ellipse cx="190" cy="40" rx="6" ry="14" fill="#e85d75" stroke="#c94a62" stroke-width="1"/>
+  <ellipse cx="205" cy="50" rx="6" ry="14" fill="#f0a5b5" stroke="#c94a62" stroke-width="1" transform="rotate(72 190 45)"/>
+  <ellipse cx="205" cy="70" rx="6" ry="14" fill="#e85d75" stroke="#c94a62" stroke-width="1" transform="rotate(144 190 45)"/>
+  <ellipse cx="175" cy="70" rx="6" ry="14" fill="#f0a5b5" stroke="#c94a62" stroke-width="1" transform="rotate(216 190 45)"/>
+  <ellipse cx="175" cy="50" rx="6" ry="14" fill="#e85d75" stroke="#c94a62" stroke-width="1" transform="rotate(288 190 45)"/>
+  <!-- Flower center -->
+  <circle cx="190" cy="55" r="5" fill="#ffd700" stroke="#daa520" stroke-width="1.5"/>
+  
+  <!-- Progress arrow/line -->
+  <path d="M 70 220 L 210 220" stroke="#5a7a4a" stroke-width="2" opacity="0.5"/>
+  <polygon points="220,220 215,215 215,225" fill="#5a7a4a" opacity="0.7"/>
+</svg>
